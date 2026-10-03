@@ -1,0 +1,10 @@
+# Конфигурация doxygen для курсовой работы (алгоритм Прима).
+PROJECT_NAME           = "Kursovaya rabota: algoritm Prima (MST)"
+OUTPUT_DIRECTORY       = doc
+INPUT                  = src inc
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+BRIEF_MEMBER_DESC      = YES
